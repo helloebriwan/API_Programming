@@ -1,0 +1,11 @@
+curl -X POST http://localhost:5000/api/books -H "Content-Type: application/json" -d "{\"title\": \"The Python Way\", \"author\": \"Roy Dosado\", \"year\": 2024}"
+
+curl -X PUT http://localhost:5000/api/books/3 -H "Content-Type: application/json" -d "{\"title\": \"The C Way\", \"author\": \"Michael Torrefiel\", \"year\": 2023}"
+
+curl -X DELETE http://localhost:5000/api/books/3 
+
+curl http://localhost:5000/api/books/2   
+
+curl http://localhost:5000/api/books        
+
+curl -v http://localhost:5000/    
